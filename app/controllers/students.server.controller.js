@@ -33,7 +33,7 @@ exports.create = function (req, res, next){
             res.status(400).json('Error: '+ err);
             return next(err);
         }else{
-            res.json('User Added');
+            res.json('Student Added');
         }
 
     });
