@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const config = require('../../config/config');
 const jwtExpirySeconds = 1200;
 const jwtKey = config.secretKey;
-
+//kazeem and sergio
 const getErrorMessage = function(err) {
 	var message = '';
 
